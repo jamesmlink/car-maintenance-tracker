@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Car Maintenance Tracker</title>
+		<meta name="description" content="web app to track car maintenance (MEAN stack JS project)">
+		<link rel="stylesheet" href="css/main.css">
+		</head>
+	<body>
+		<header>
+			<h1>Log a Service</h1>
+			<h2>Green Accord</h2>
+		</header>
+		<hr>
+		<section>
+			<select>
+				<option value="oil_change">Oil Change</option>
+				<option value="tire_rotation">Tire Rotation</option>
+				<option value="cabin_filter">Cabin Air Filter</option>
+				<option value="spark_plug">Spark Plugs</option>
+			</select>
+		</section>
+		<hr>
+		<section>
+			<p>Service Details:</p>
+			<ul>
+				<li>Interval : [interval]</li>
+				<li>Last Service Date : [last-service-date]</li>
+				<li>Last Service Mileage : [last-service-miles]</li>
+				<li>Due Date or Mileage : [upcoming-due-interval]</li>
+				<li>Service Interval Notes : [interval-notes]</li>
+				<li><a href="history.html">View Service History</a></li>
+			</ul>
+		</section>
+		<hr>
+		<section>
+			<br />
+			Date:
+			<input name="date" type="date">
+			<br />
+			Mileage:
+			<input name="miles" type="number">
+			<br />
+			Price:
+			$<input name="price" type="number">
+			<br />
+			Notes:
+			<textarea name="notes"></textarea>
+			<br />
+			<button>Cancel</button>
+			<button>Save</button>
+		</section>
+		<hr>
+		<footer>
+			<p>Copyright James Link 2016</p>
+		</footer>
+	</body>
+</html>

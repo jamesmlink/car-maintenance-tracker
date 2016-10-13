@@ -1,0 +1,15 @@
+SHORT TERM
+- get json files integrated
+- get log a service buttons active
+
+
+
+
+
+
+
+LONGER TERM
+- jazz up css
+- need to add a template to add new service intervals
+- single page app?
+- get view details functionality up in service intervals and log a service page
